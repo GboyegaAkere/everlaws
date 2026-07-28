@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Fraunces:ital,wght@1,500;1,600&display=swap');
 @import "tailwindcss";
 
+.animate-partner-scroll {
+  animation: partner-scroll 20s linear infinite;
+}
 @theme {
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;

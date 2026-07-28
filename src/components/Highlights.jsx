@@ -13,7 +13,7 @@ const HIGHLIGHTS = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1610375461369-d613b564f4c1?q=80&w=800&auto=format&fit=crop",
+      "/public/gold.jpg",
     caption: "Turning gold mining investments into steady, real returns",
   },
 ];
@@ -39,14 +39,14 @@ export default function Highlights() {
             whileInView="show"
             viewport={{ once: true, margin: "-60px" }}
             variants={fadeUp}
-            className="relative rounded-2xl overflow-hidden aspect-[4/3] group"
+            className="relative rounded-2xl overflow-hidden aspect-4/3 group"
           >
             <img
               src={image}
               alt=""
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-navy/90 via-navy/20 to-transparent" />
             <p className="absolute bottom-4 left-4 right-4 text-white text-sm font-medium leading-snug">
               {caption}
             </p>

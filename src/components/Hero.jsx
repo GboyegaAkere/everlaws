@@ -131,7 +131,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="mt-4 flex items-center justify-between bg-white border border-ink/10 rounded-full pl-4 pr-1.5 py-1.5 text-sm text-slate hover:border-volt transition-colors"
             >
-              Message on WhatsApp
+              Contact Us
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-volt text-white shrink-0">
                 <Mail size={14} />
               </span>
