@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Fraunces:ital,wght@1,500;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-accent: "Fraunces", serif;
+
+  --color-ink: #10131A;
+  --color-paper: #EEF1F6;
+  --color-paper-alt: #E4E9F1;
+  --color-volt: #1E5FFF;
+  --color-volt-dark: #123AA6;
+  --color-gold: #B8923D;
+  --color-slate: #5B6472;
+  --color-navy: #0B0E14;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background-color: var(--color-volt);
+  color: white;
+}
