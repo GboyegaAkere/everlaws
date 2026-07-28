@@ -13,7 +13,7 @@ const HIGHLIGHTS = [
   },
   {
     image:
-      "/public/gold.jpg",
+      "/gold.jpg",
     caption: "Turning gold mining investments into steady, real returns",
   },
 ];
