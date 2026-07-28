@@ -39,14 +39,14 @@ export default function ExpertSolutions() {
             whileInView="show"
             viewport={{ once: true, margin: "-80px" }}
             variants={fadeUp}
-            className="relative rounded-2xl overflow-hidden min-h-[320px]"
+            className="relative rounded-2xl overflow-hidden min-h-80"
           >
             <img
               src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop"
               alt="Reviewing a financing plan together"
               className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/30 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-navy/90 via-navy/30 to-transparent" />
             <div className="relative p-7 flex flex-col justify-end h-full">
               <ul className="flex flex-col gap-3">
                 {POINTS.map((point) => (
