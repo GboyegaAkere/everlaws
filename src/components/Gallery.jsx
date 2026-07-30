@@ -22,6 +22,11 @@ const GALLERY = [
   },
   {
     image:
+      "/t7.jpg",
+    caption: "Traded a long commute for a quiet ride",
+  },
+  {
+    image:
       "/t4.jpg",
     caption: "Driving electric for the first time",
   },
@@ -34,6 +39,11 @@ const GALLERY = [
     image:
       "/t6.jpg",
     caption: "Financed a Model X for the family",
+  },
+  {
+    image:
+      "/t8.jpg",
+    caption: "Traded a long commute for a quiet ride",
   },
 ];
 
