@@ -30,11 +30,11 @@ const GALLERY = [
       "/t4.jpg",
     caption: "Driving electric for the first time",
   },
-  {
-    image:
-      "/t5.jpg",
-    caption: "Traded a long commute for a quiet ride",
-  },
+  // {
+  //   image:
+  //     "/t5.jpg",
+  //   caption: "Traded a long commute for a quiet ride",
+  // },
   {
     image:
       "/t6.jpg",
