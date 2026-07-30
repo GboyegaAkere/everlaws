@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatAppButton";
 import Partners from "./components/Partners";
+import Gallery from "./components/Gallery";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <Partners/>
         <Highlights />
+        <Gallery/>
         <Testimonials />
         <About />
         <StatsBanner />
