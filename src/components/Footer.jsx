@@ -95,6 +95,10 @@ export default function Footer() {
                 +12764949802
               </a>
 
+               <p className="text-sm text-slate leading-5">
+                1002 Melville Street Memphis,Tennessee
+              </p>
+
               <a
                 href="mailto:hello@everlaws.com"
                 className="text-sm text-slate hover:text-ink transition-colors"
