@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatAppButton";
 import Partners from "./components/Partners";
 import Gallery from "./components/Gallery";
+import Everlaw from "./components/Everlaw";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <main>
         <Hero />
         <Partners/>
+        <Everlaw/>
         <Highlights />
         <Gallery/>
         <Testimonials />

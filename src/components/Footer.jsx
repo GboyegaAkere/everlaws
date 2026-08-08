@@ -92,7 +92,7 @@ export default function Footer() {
                 href="tel:+15551234567"
                 className="text-sm text-slate hover:text-ink transition-colors"
               >
-                +1 (555) 123-4567
+                +12764949802
               </a>
 
               <a
