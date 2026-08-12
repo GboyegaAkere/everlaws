@@ -28,7 +28,7 @@ export default function Footer() {
 
             <p className="mt-4 text-sm leading-6 text-slate max-w-xs">
               Professional financial solutions designed to help you move
-              forward with confidence.
+              forward with confidence
             </p>
           </div>
 
