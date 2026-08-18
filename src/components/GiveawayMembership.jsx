@@ -73,14 +73,14 @@ export default function GiveawayMembership() {
           </ul>
 
           
-           <a href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white font-medium px-6 py-3 rounded-full transition-colors shadow-md w-fit"
-          >
-            <MessageCircle size={20} />
-            Apply via WhatsApp
-          </a>
+          <a
+  href={whatsappUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center bg-[#1F3A2E] hover:bg-[#162B22] text-white font-medium px-6 py-3 rounded-full transition-colors shadow-md w-fit"
+>
+  Apply Here
+</a>
         </motion.div>
       </div>
     </section>
