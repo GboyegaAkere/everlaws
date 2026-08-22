@@ -20,7 +20,9 @@ export default function App() {
     <div className="min-h-screen bg-paper font-body text-ink antialiased">
       <Navbar />
       <main>
+         
         <Hero />
+        <GiveawayMembership/>
         <Partners/>
         <Everlaw/>
         <GiveawayMembership/>

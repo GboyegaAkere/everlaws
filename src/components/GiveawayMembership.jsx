@@ -15,7 +15,7 @@ export default function GiveawayMembership() {
   );
 
   return (
-    <section className="relative py-20 md:py-28 bg-[#0B1220] overflow-hidden">
+    <section id="give" className="relative py-20 md:py-28 bg-[#0B1220] overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Image */}
         <motion.div
