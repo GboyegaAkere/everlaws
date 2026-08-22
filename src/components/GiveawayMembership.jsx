@@ -15,7 +15,7 @@ export default function GiveawayMembership() {
   );
 
   return (
-    <section id="give" className="relative py-20 md:py-28 bg-[#0B1220] overflow-hidden">
+    <section  className="relative py-20 md:py-28 bg-[#0B1220] overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Image */}
         <motion.div
@@ -45,7 +45,7 @@ export default function GiveawayMembership() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-wide text-[#4F8FD1] mb-4">
+          <span id="give" className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-wide text-[#4F8FD1] mb-4">
             <Gift size={16} />
             Giveaway & Membership
           </span>
@@ -80,7 +80,7 @@ export default function GiveawayMembership() {
   className="inline-flex items-center justify-center bg-[#1F3A2E] hover:bg-[#162B22] text-white font-medium px-6 py-3 rounded-full transition-colors shadow-md w-fit"
 >
   Apply Here
-</a>
+  </a>
         </motion.div>
       </div>
     </section>
