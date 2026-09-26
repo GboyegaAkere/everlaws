@@ -2,7 +2,7 @@
 
 // Central place to update contact details before publishing.
 
-export const WHATSAPP_NUMBER = "3059030084";
+export const WHATSAPP_NUMBER = "+13059030084";
 export const WHATSAPP_MESSAGE =
   "Hi Sean, I'm interested in EV financing options.";
 
