@@ -79,7 +79,7 @@ export default function Hero() {
               custom={2}
               className="mt-6 max-w-lg text-white/70 text-base sm:text-lg"
             >
-              Sean Wiggins pairs three decades of engineering discipline with
+              Thomas Hutt pairs three decades of engineering discipline with
               flexible financing plans that put a Tesla in your driveway
               sooner &mdash; no giant down payment required.
             </motion.p>

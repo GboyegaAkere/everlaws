@@ -19,9 +19,9 @@ const CREDENTIALS = [
 ];
 
 const IMAGES = [
-  "/sean1.png",
-  "/sean2.png",
-  "/sean3.png",
+  "/hutt.jpeg",
+  // "/sean2.png",
+  // "/sean3.png",
 ];
 
 const fadeUp = {
@@ -66,14 +66,14 @@ export default function About() {
           variants={fadeUp}
         >
           <p className="text-xs font-medium tracking-wide uppercase text-volt mb-4">
-            About Sean Wiggins
+            About Thomas hutt
           </p>
 
           <h2
             id="about-sean-wiggins"
             className="font-display font-bold text-3xl sm:text-4xl leading-tight text-ink"
           >
-            Sean Wiggins:
+            Thomas hutt:
             <br />
             An engineer at heart,
             <br />
@@ -85,7 +85,7 @@ export default function About() {
           </h2>
 
           <p className="mt-6 text-slate text-base leading-relaxed max-w-lg">
-            At 54, Sean Wiggins has spent his career solving hard problems
+            At 34, Thomas Hutt has spent his career solving hard problems
             &mdash; first as an engineering contractor delivering complex
             projects, later as an investor in gold mining, and now as the
             driving force behind Everlaws, a company focused on making
@@ -94,14 +94,14 @@ export default function About() {
           </p>
 
           <p className="mt-4 text-slate text-base leading-relaxed max-w-lg">
-            Sean Wiggins believes that financing should be straightforward,
+            Thomas Hutt believes that financing should be straightforward,
             transparent, and built around the customer. His philosophy is
             simple: transparent terms, honest conversations, and a plan that
             fits your budget &mdash; not the other way around.
           </p>
 
           <p className="mt-4 text-slate text-base leading-relaxed max-w-lg">
-            As the founder of Everlaws, Sean combines his engineering
+            As the founder of Everlaws, Thomas combines his engineering
             experience, business knowledge, and investment background to help
             make electric vehicle ownership more achievable.
           </p>
